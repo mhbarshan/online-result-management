@@ -1,0 +1,187 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/03072022_010707.Helena\ Atik\ true\ DSLR.PORTRAIT.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+}
+[class*="col-"]{
+    width: 100%;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+.row{
+    width: 100%;
+}
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+#contact{
+    padding: 1%;
+    /* background-color: #c4fd9e; */
+    align-items: center;
+    text-align: center;
+}
+#contact h2{
+    background-color:#e68226 ;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact h2{
+    background-color:#e68226 ;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+ }
+ .contact p{
+    padding:5px;
+    
+ }
+.contact input, textarea{
+    width: 100%;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    resize: none;
+    
+}
+
+.contact button{           
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f; 
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px; 
+    padding: 15px;
+    width: 100px;  
+    text-align: center;
+}
+ .contact button:hover{
+    background-color: gray;
+    
+}
+.contactinfo{
+    color: white;
+    text-align: center;
+    /* padding: 20px 0; */
+}
+.contactinfo h2{
+    background-color:#e68226 ;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.map{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+.contactinfo p{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.contactinfo p a{
+   
+    color: white;
+    text-decoration: none;
+}
+/* .web p :hover{
+    cursor: pointer;
+    transform: scale(1.2);
+} */
+
+/* .info h2, h3, address{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+footer{
+    padding: 1%;
+    color: white;
+    background-color: #060930;
+}
+footer p{
+    line-height: 32px;
+    font-size: .9rem;
+    text-align: center;
+    
+}
+.social{
+    text-align: center;
+}
+.icon-style{
+    color: white;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .4s;
+    text-align: center;
+}
+.fa-brands{
+    color: white;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .4s;
+    text-align: center; 
+}
+.fa-brands:hover{
+    background-color: gray;
+    transform: scale(1.2);
+}
+.icon-style:hover{
+    background-color: gray;
+    transform: scale(1.2);
+}
+
+    footer p{
+        text-align: left;
+    }
+    .social{
+        text-align: right;
+
+    }
+
+    .col-l-1 {width: 8.33%;}
+    .col-l-2 {width: 16.66%;}
+    .col-l-3 {width: 25%;}
+    .col-l-4 {width: 33.33%;}
+    .col-l-5 {width: 41.66%;}
+    .col-l-6 {width: 50%;}
+    .col-l-7 {width: 58.33%;}
+    .col-l-8 {width: 66.66%;}
+    .col-l-9 {width: 75%;}
+    .col-l-10 {width: 83.33%;}
+    .col-l-11 {width: 91.66%;}
+    .col-l-12 {width: 100%;}
+    
